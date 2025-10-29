@@ -1,0 +1,63 @@
+.twclass-folow-Card {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 0.8rem;
+  justify-content: space-between;
+}
+.twclass-folow-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.twclass-folow-Card-info {
+  display: flex;
+  flex-direction: column;
+}
+.twclass-folow-Card-infousername {
+  opacity: 0.6;
+}
+.twclass-folow-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 1000px;
+}
+.twclass-folow-Card-button {
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #000;
+  transition: background-color 0.3s ease;
+  opacity: 1;
+}
+.twclass-folow-Card-button:hover {
+  opacity: 0.8;
+}
+/**/
+.twclass-folow-Card-button.is-following {
+  border: 1px solid #bbb;
+  background: transparent;
+  color: #fff;
+  width: 140px;
+}
+
+.twclass-folow-Card-button.is-following:hover {
+  background: rgb(255, 0, 0, 0.178);
+  color: red;
+  border: 1px red;
+}
+.twclass-folow-Card-button.is-following:hover .twclass-folowCard-StopFollowed {
+  display: block;
+}
+.twclass-folow-Card-button.is-following:hover .twclass-folowCard-Text {
+  display: none;
+}
+.twclass-folowCard-StopFollowed {
+  display: none;
+}
+.twclass-folowCard-Text {
+  display: block;
+}
