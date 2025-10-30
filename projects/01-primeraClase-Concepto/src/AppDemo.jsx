@@ -122,8 +122,9 @@ export function Appxd() {
         Hola como estas
       </Twitterx>
       {
-        //    {...} = resto preditor => pasale cada una delas propiedades de este objeto  como si fuese una prop para
-        // para mi compoentente
+           {...} =
+         resto preditor => pasale cada una delas propiedades de este objeto  como si fuese una prop para
+       para mi compoentente
       }
       <Twitterx {...miudev}></Twitterx>
       
